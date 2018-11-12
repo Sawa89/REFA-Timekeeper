@@ -1,4 +1,4 @@
-# REFA-Timerkeeper
+# REFA-Timekeeper
 GUI for REFA time tracking with a Raspberry Pi, implemented in Python using PyQt5.
 
 Use your Raspberry Pi in conjunction with a 7 inch lcd as a portable time recording device. 
