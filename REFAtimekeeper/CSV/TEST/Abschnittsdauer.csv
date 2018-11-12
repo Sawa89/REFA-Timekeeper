@@ -1,0 +1,11 @@
+Id,Ablaufabschnitt,Zyklus,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+1,Rüsten,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+2,Einspannen,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+3,Fräsen,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4,Entgraten,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+5,Umspannen,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+6,Fräsen,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+7,Entgraten,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+8,Bohren,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+9,Reiben,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+10,Säubern,ti,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
