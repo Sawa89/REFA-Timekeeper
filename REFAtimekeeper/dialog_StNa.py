@@ -17,8 +17,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-import datenbank
-import REFA_GUI
+from REFAtimekeeper import datenbank
+from REFAtimekeeper import REFA_GUI
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):

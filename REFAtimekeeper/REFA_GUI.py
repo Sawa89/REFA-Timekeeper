@@ -18,11 +18,12 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QRunnable, QThreadPool, QThread, QCoreApplication
 from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem
-from soundplayer import SoundPlayer
-import time, sqlite3, Bilder, datenbank, dialog_StNa, Analoguhr, dialog_StStart
-import dialog_KonfFrage, dialog_DatVorh, dialog_Hinweis, dialog_Ende, tastatur
-import dialog_fortfahren, dialog_admin, Nummernblock, dialog_passwort, dialog_Epsi
-import dialog_ergebnis
+from REFAtimekeeper.soundplayer import SoundPlayer
+from REFAtimekeeper import Bilder, datenbank, dialog_StNa, Analoguhr, dialog_StStart
+import time, sqlite3
+from REFAtimekeeper import dialog_KonfFrage, dialog_DatVorh, dialog_Hinweis, dialog_Ende, tastatur
+from REFAtimekeeper import dialog_fortfahren, dialog_admin, Nummernblock, dialog_passwort, dialog_Epsi
+from REFAtimekeeper import dialog_ergebnis
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -1016,6 +1017,16 @@ class MainWIndow_MouseEvent(QtWidgets.QMainWindow):      # Diese Klasse ist nur 
       
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+
+def main():
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    ui = Ui_MainWindow()
+    window = QtWidgets.QMainWindow()
+    ui.setupUi(window)
+    window.show()
+    sys.exit(app.exec_())
         
         
         
